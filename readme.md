@@ -12,11 +12,14 @@ mkdir ~/.zfunc
 ln -s /path/to/zsh-prompt-insert/prompt-insert.sh ~/.zfunc/prompt-insert
 ```
 
-Then, add the following two lines to your `~/.zshrc`:
+Then, add the following lines to your `~/.zshrc`:
 ```
 #Put the folder in your $fpath
-fpath=( /path/to/zsh-prompt-insert/prompt-insert "${fpath[@]}" )
+fpath=( ~/.zfunc "${fpath[@]}" )
 
 #Mark prompt-insert to have zsh automatically load it
 autoload -Uz prompt-insert
+
+#Set prompt-insert to a hotkey
+bindkey ^i prompt-insert
 ```
