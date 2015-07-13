@@ -9,7 +9,7 @@ Run the following commands on your command line:
 mkdir ~/.zfunc
 
 #Add `/path/to/zsh-prompt-insert/prompt_insert.sh"` to your ZSH function folder with a symlink
-ln -s ~/.zfunc/prompt-insert /path/to/zsh-prompt-insert/prompt-insert.sh
+ln -s /path/to/zsh-prompt-insert/prompt-insert.sh ~/.zfunc/prompt-insert
 ```
 
 Then, add the following two lines to your `~/.zshrc`:
