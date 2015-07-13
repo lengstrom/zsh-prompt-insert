@@ -8,7 +8,7 @@ Run the following commands on your command line:
 #Make a folder (if you don't already have one) for your ZSH functions/widgets
 mkdir ~/.zfunc
 
-#Add /path/to/zsh-prompt-insert/prompt_insert.sh to your ZSH function folder with a symlink
+#Symlink /path/to/zsh-prompt-insert/prompt_insert.sh into your function folder 
 ln -s /path/to/zsh-prompt-insert/prompt-insert.sh ~/.zfunc/prompt-insert
 ```
 
