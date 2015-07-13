@@ -1,0 +1,7 @@
+prompt-insert () {
+	autoload -U modify-current-argument
+	modify-current-argument '${ARG:h}'
+}
+
+zle -N dirname-previous-word
+bindkey '^[q' dirname-previous-word
