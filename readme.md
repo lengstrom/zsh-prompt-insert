@@ -16,5 +16,4 @@ Then, add the following two lines to your `~/.zshrc`:
 ```
 `fpath=( /path/to/zsh-prompt-insert/prompt-insert "${fpath[@]}" )` #Put the folder in your $fpath
 autoload -Uz prompt-insert #Mark `prompt-insert` to have zsh automatically load it
-
 ```
