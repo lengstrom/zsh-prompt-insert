@@ -1,8 +1,7 @@
 #!/bin/zsh
 
 prompt-insert () {
-	autoload -U modify-current-argument
-	modify-current-argument '${ARG:h}'
+    
 }
 
 zle -N dirname-previous-word
